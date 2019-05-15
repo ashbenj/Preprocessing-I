@@ -50,10 +50,36 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
 }
+
+header {
+	margin: 10px 0;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+
+@media( max-width: 500px ) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1{
+	  font-size: 4rem;
+  }
+
+  nav {
+	  margin: 50px;
+  }
+
+  a {
+	  text-decoration: none;
+	  color: black;
+    }
+   }
+  }
 
